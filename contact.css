@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html{
+    height: 100%;
+    background-color: black;
+}
+nav{
+   padding-top: 2%;
+   font-size: large;
+   
+}
+
+a:visited {
+	color: #038d03;
+}
+a:hover {
+	color: rgb(1, 107, 1);
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+ul{
+    list-style-type: none;
+}
+p, h1, address{
+    text-align: center;
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+    margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-left: 2%;
+	padding-right: 2%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+    background-color:whitesmoke;
+
+}
+
+footer {
+	width: 96%;
+	clear: left;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 30px;
+	border-top: 2px solid rgb(206, 8, 8);
+    
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}

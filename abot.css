@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+html{
+    background-color: rgba(19, 18, 18, 0.986);
+    height: 100%;
+}
+nav  {
+overflow: hidden;
+}
+nav li{
+    list-style-type: none;
+}
+a {
+	color: rgb(238, 8, 0);
+}
+a:visited {
+	color: #038d03;
+}
+a:hover {
+	color: rgb(1, 107, 1);
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+
+img{
+    width: 50%;
+    padding-top: 2.5%;
+    padding-left: 25%;
+
+}
+
+
+p, header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    
+}
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+    background-color:rgb(243, 212, 156);
+    margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+footer {
+	width: 96%;
+	clear: left;
+    padding-bottom: 2.5%;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 30px;
+	border-top: 2px solid rgb(206, 8, 8);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+ 
